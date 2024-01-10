@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting Started with Sleek
-featured-img: sleek
+title: Getting Started with labexam
+featured-img: labexam
 mathjax: true
 ---
 
@@ -10,7 +10,7 @@ mathjax: true
 [GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
 Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `blog` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
 
-1. Just download or fork and clone the source from [github.com/janczizikow/sleek](https://github.com/janczizikow/sleek/).
+1. Just download or fork and clone the source from [github.com/janczizikow/labexam](https://github.com/janczizikow/labexam/).
 2. Make sure your local machine has ruby and node
 3. Edit site settings in  `_config.yml` file according to your project.
 4. Replace `favicons` and `_includes/logo.svg` with your own logo.
@@ -27,15 +27,15 @@ Create a new Markdown file such as `2017-01-13-my-post.md` in `_post` folder. Co
 
 ---
 layout: post # needs to be post
-title: Getting Started with Sleek # title of your post
-featured-img: sleek #optional - if you want you can include hero image
+title: Getting Started with labexam # title of your post
+featured-img: labexam #optional - if you want you can include hero image
 ---
 
 ```
 
 #### Images
 
-In case you want to add a hero image to the post, apart from changing `featured-img` in YAML, you also need to add the image file to the project. To do so, just upload an image in `.jpg` format to `_img` folder. The name must before the `.jpg` file extension has to match with `featured-img` in YAML. Next, run `gulp img` from command line to generate optimized version of the image and all the thumbnails. You have to restart  the jekyll server to see the changes. Sleek uses [Lazy Sizes](https://github.com/aFarkas/lazysizes) Lazy Loader for loading images. Check the link for more info. Lazy Sizes doesnt't require any configuration and it's going to be included in your bundled js file.
+In case you want to add a hero image to the post, apart from changing `featured-img` in YAML, you also need to add the image file to the project. To do so, just upload an image in `.jpg` format to `_img` folder. The name must before the `.jpg` file extension has to match with `featured-img` in YAML. Next, run `gulp img` from command line to generate optimized version of the image and all the thumbnails. You have to restart  the jekyll server to see the changes. labexam uses [Lazy Sizes](https://github.com/aFarkas/lazysizes) Lazy Loader for loading images. Check the link for more info. Lazy Sizes doesnt't require any configuration and it's going to be included in your bundled js file.
 
 ### Pages
 
@@ -71,7 +71,7 @@ If you want to use [MathJax](https://www.mathjax.org/) in your posts, add `mathj
 ---
 layout: post
 title: Blog Post with MathJax
-featured-img: sleek # optional - if you want you can include name of hero image
+featured-img: labexam # optional - if you want you can include name of hero image
 mathjax: true # add this line in order to enable MathJax in the post
 ---
 ```

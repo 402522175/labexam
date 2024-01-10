@@ -1,12 +1,12 @@
-# Sleek
+# labexam
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
+[![Gem Version](https://badge.fury.io/rb/jekyll-labexam.svg)](https://badge.fury.io/rb/jekyll-labexam) [![Build Status](https://travis-ci.org/janczizikow/labexam.svg?branch=master)](https://travis-ci.org/janczizikow/labexam) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/labexam)
 
 A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
 
 > ⚠️ This theme is no longer actively maintained.
 
-![Sleek Jekyll Theme](./sleek.jpg)
+![labexam Jekyll Theme](./labexam.jpg)
 
 ## Features
 
@@ -17,7 +17,7 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 * Support for [Disqus](https://disqus.com/) comments
 * Form submissions with [Formspree](#formspree)
 
-[Preview Demo](https://janczizikow.github.io/sleek/)
+[Preview Demo](https://janczizikow.github.io/labexam/)
 
 ## Installation
 
@@ -43,8 +43,8 @@ npm install --global gulp-cli
 
 ### Up & Running
 
-1. [Fork the repo](https://github.com/janczizikow/sleek/fork)
-2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
+1. [Fork the repo](https://github.com/janczizikow/labexam/fork)
+2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/labexam.git`
 3. Inside the directory run `bundle install` and `npm install`
 4. If you want to use [gulp.js](https://gulpjs.com/) run `gulp` or `npm start`
     * if you don't want to use gulp you can run `bundle exec jekyll serve` instead
@@ -54,13 +54,13 @@ npm install --global gulp-cli
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-sleek"
+gem "jekyll-labexam"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-sleek
+theme: jekyll-labexam
 ```
 
 And then execute:
@@ -69,12 +69,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-sleek
+    $ gem install jekyll-labexam
 
 ## File Structure Overview
 
 ```bash
-sleek
+labexam
 ├── _includes	               # theme includes
 ├── _js	                       # javascript files (by default jquery will be included with the scripts inside)
 ├── _layouts                   # theme layouts (see below for details)
@@ -102,8 +102,8 @@ Create a new Markdown file such as 2017-01-13-my-post.md in _post folder. Config
 ```yaml
 ---
 layout: post # needs to be post
-title: Getting Started with Sleek # title of your post
-featured-img: sleek #optional - if you want you can include hero image
+title: Getting Started with labexam # title of your post
+featured-img: labexam #optional - if you want you can include hero image
 ---
 ```
 
@@ -111,7 +111,7 @@ featured-img: sleek #optional - if you want you can include hero image
 
 In case you want to add a hero image to the post, apart from changing featured-img in YAML, you also need to add the image file to the project. To do so, just upload an image in .jpg format to `_img` folder. The name must before the .jpg file extension has to match with featured-img in YAML. Next, run `gulp img` from command line to generate optimized version of the image and all the thumbnails. You have to restart the jekyll server to see the changes.
 
-Sleek uses [Lazy Sizes](https://github.com/aFarkas/lazysizes). Lazy Loader for loading images. Check the link for more info. Lazy Sizes doesnt’t require any configuration and it’s going to be included in your bundled js file.
+labexam uses [Lazy Sizes](https://github.com/aFarkas/lazysizes). Lazy Loader for loading images. Check the link for more info. Lazy Sizes doesnt’t require any configuration and it’s going to be included in your bundled js file.
 
 ### Pages
 
@@ -131,7 +131,7 @@ navigation: # Navigation links
 
 ### Site configuration
 
-Sleek comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) to know how to set it up.
+labexam comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) to know how to set it up.
 
 Additionally, in `_config.yml` you can find custom theme settings under `# THEME SETTINGS` comment. Here's a brief overview of those custom settings:
 
@@ -180,7 +180,7 @@ If you have a Formspree Gold Account, you can take advantage of using AJAX to su
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/janczizikow/sleek](https://github.com/janczizikow/sleek). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/janczizikow/labexam](https://github.com/janczizikow/labexam). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
