@@ -1,19 +1,7 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: Academic Calendar
+permalink: /Academic Calendar/
 ---
 
-Jekyll is a great tool to create static sites, but there’s no backend to send your data to.
-
-However, you can use free SaaS as a backend for forms, such as [Formspree](https://formspree.io/) to handle form submissions. labexam has a configured form using formspree ready for you. All you have to do is change the email in `.config.yml`.
-
-Check the form below to see it in action!
-
-### Example Formspree contact form with validation and reCaptcha
-
-Fill in the form or [email me](mailto:{{site.email}}) to discuss your next project.
-
-{% include form.html %}
-
-{% include modal.html %}
+<iframe src="https://calendar.google.com/calendar/embed?src=matinnouri0938%40gmail.com&ctz=Asia%2FTehran" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
